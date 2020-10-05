@@ -1,4 +1,4 @@
-package com.example.inputnama;
+package com.example.tugasvsgatujuh;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,24 +11,24 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class Listnegara extends AppCompatActivity {
+public class NamaNegara extends AppCompatActivity {
     private ListView listView;
     private Button exit;
     private String[] negara = new String[]{"Indonesia", "Malaysia", "Singapore", "Italia", "Inggris", "Belanda", "Argentina", "Chile", "Mesir", "Uganda"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_listview);
+        setContentView(R.layout.activity_namanegara);
 
         exit = findViewById(R.id.btn_back);
         exit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Listnegara.this, MainActivity.class));
+                startActivity(new Intent(NamaNegara.this, MainActivity.class));
             }
         });
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(Listnegara.this,
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(NamaNegara.this,
                 android.R.layout.simple_list_item_1,android.R.id.text1,negara);
 
         listView = findViewById(R.id.listView);
@@ -36,7 +36,7 @@ public class Listnegara extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(Listnegara.this, negara[position], Toast.LENGTH_LONG).show();
+                Toast.makeText(NamaNegara.this, negara[position], Toast.LENGTH_LONG).show();
             }
         });
     }

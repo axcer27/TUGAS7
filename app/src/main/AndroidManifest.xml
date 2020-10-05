@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.inputnama">
+    package="com.example.tugasvsgatujuh">
 
     <application
         android:allowBackup="true"
@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Listnegara"></activity>
-        <activity android:name=".Kalkulator" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.tugasvsgatujuh.NamaNegara"></activity>
+        <activity android:name="com.example.tugasvsgatujuh.Perhitungan" />
+        <activity android:name="com.example.tugasvsgatujuh.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

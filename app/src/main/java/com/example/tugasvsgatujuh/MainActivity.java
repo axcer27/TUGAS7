@@ -1,4 +1,4 @@
-package com.example.inputnama;
+package com.example.tugasvsgatujuh;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         hitungkalkulator.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Kalkulator.class));
+                startActivity(new Intent(MainActivity.this, Perhitungan.class));
             }
         });
 

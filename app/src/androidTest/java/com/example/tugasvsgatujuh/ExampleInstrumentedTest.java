@@ -1,4 +1,4 @@
-package com.example.inputnama;
+package com.example.tugasvsgatujuh;
 
 import android.content.Context;
 

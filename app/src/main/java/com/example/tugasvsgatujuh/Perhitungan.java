@@ -1,4 +1,4 @@
-package com.example.inputnama;
+package com.example.tugasvsgatujuh;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Kalkulator extends AppCompatActivity {
+public class Perhitungan extends AppCompatActivity {
     private EditText angka1;
     private EditText angka2;
     private TextView hasilText;
@@ -19,13 +19,13 @@ public class Kalkulator extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kalkulator);
+        setContentView(R.layout.activity_perhitungan);
 
         country = findViewById(R.id.btn_negara);
         country.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Kalkulator.this, Listnegara.class));
+                startActivity(new Intent(Perhitungan.this, NamaNegara.class));
             }
         });
 
