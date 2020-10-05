@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Input Nama</string>
+    <string name="input_nama">Masukkan Nama Anda:</string>
+    <string name="tampil">Tampilkan</string>
+    <string name="nama_anda">Nama anda: %1$s</string>
+    <string name="input_angka">Masukkan Dua Angka</string>\
+    <string name="bersihkan">Bersihkan</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="bagi">/</string>
+    <string name="kali">x</string>
+    <string name="hasil">0</string>
+    <string name="jawab">Hasil</string>
+    <string name="pilih_negara">Pilih Nama Negara</string>
+</resources>
